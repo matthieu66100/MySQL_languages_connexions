@@ -6,6 +6,18 @@
 sudo apt-get install git
 ```
 
+### Python3 :
+#### Installation
+```bash
+sudo apt-get install python3
+```
+
+#### MySQL Python
+```
+python3 -m pip install mysql-connector-python
+```
+
+
 ### Docker :
 [Docker Doc](https://docs.docker.com/engine/install/ubuntu/)
 
