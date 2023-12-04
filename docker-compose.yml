@@ -13,6 +13,8 @@ services:
       MYSQL_PASSWORD: userpwd
     volumes: 
       - ./ressources:/ressourcesSQL000
+    ports:
+      - 3306:3306
 
   adminer:
     container_name: cont_adminer

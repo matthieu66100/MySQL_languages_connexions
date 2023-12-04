@@ -39,5 +39,7 @@ docker compose up
 
 Now you can accès to the BDD using the navigator at 'localhost:8080' address or '127.0.0.1:8080'
 
+Create username and grant all privileges in adminer's web page.
+> Privilèges -> Créer un utilisateur -> [x]All privileges -> [x]Grant option -> enregistrer
 
 
