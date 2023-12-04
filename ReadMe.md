@@ -6,6 +6,18 @@
 sudo apt-get install git
 ```
 
+### Python3 :
+#### Installation
+```bash
+sudo apt-get install python3
+```
+
+#### MySQL Python
+```
+python3 -m pip install mysql-connector-python
+```
+
+
 ### Docker :
 [Docker Doc](https://docs.docker.com/engine/install/ubuntu/)
 
@@ -27,5 +39,7 @@ docker compose up
 
 Now you can accès to the BDD using the navigator at 'localhost:8080' address or '127.0.0.1:8080'
 
+Create username and grant all privileges in adminer's web page.
+> Privilèges -> Créer un utilisateur -> [x]All privileges -> [x]Grant option -> enregistrer
 
 

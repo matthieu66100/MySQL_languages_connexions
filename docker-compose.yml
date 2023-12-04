@@ -1,13 +1,23 @@
 
 services:
   db:
-    image: mysql
-    command: --default-authentication-plugin=mysql_native_password
+    container_name: cont_mysql
+    image: mysql:latest
     restart: always
+    command:
+      - --default-authentication-plugin=mysql_native_password
     environment:
-      MYSQL_ROOT_PASSWORD: etibualuc
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE : db_first
+      MYSQL_USER: user
+      MYSQL_PASSWORD: userpwd
+    volumes: 
+      - ./ressources:/ressourcesSQL000
+    ports:
+      - 3306:3306
 
   adminer:
+    container_name: cont_adminer
     image: adminer
     restart: always
     ports: 
