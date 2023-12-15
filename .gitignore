@@ -1,1 +1,3 @@
 src/python/__pycache__
+.vscode
+src/c++/build/
